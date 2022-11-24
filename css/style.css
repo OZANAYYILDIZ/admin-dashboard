@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+main {
+    background-color: bisque;
+}
+
+.left-sidebar {
+    background-color: greenyellow;
+}
+
+.header {
+    background-color: aquamarine;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(240px, 1fr));
+}
+
+.main-side {
+    grid-column: 2 / 6;
+}
+
+.dashboard-header {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
