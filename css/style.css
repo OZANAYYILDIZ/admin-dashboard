@@ -3,6 +3,18 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 10px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
@@ -13,16 +25,16 @@ main {
 }
 
 .left-sidebar {
-    background-color: greenyellow;
+    background-color: #2596be;
 }
 
 .header {
-    background-color: aquamarine;
+    background-color: #fff;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(5, minmax(240px, 1fr));
+    grid-template-columns: repeat(5, minmax(300px, 1fr));
 }
 
 .main-side {
@@ -30,11 +42,18 @@ main {
 }
 
 .dashboard-header {
-    font-size: 24px;
+    font-size: 36px;
+    font-weight: 700;
     color: white;
+    padding: 3vh 0;
 }
 
-a {
-    text-decoration: none;
-    color: white
+
+.left-sidebar {
+    padding-left: 20px;
+}
+.sidebar-links,
+.setting-links {
+    font-size: 20px;
+    font-weight: 600;
 }
