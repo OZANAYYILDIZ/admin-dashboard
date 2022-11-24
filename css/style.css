@@ -25,9 +25,11 @@ main {
 }
 
 input {
-    border-radius: 10px;
+    border-radius: 12px;
     border: solid 1px #e2e8f0;
     background-color: #e2e8f0;
+    height: 24px;
+    width: 60%;
 }
 
 .left-sidebar {
@@ -67,6 +69,8 @@ input {
 .header-search {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    justify-self: center;
+    padding: 10px 0;
 }
 .search-flex {
     display: flex;
@@ -76,14 +80,33 @@ input {
 
 .search-icon {
     padding-right: 20px;
+
+}
+
+.notification,
+.search-icon {
+    font-size: 14px;
 }
 
 .search-user {
     display: flex;
     align-items: center;
+    gap: 20px
+}
+
+.user-name-small {
+    font-size: 20px;
 }
 
 .user-img-small {
     width: 40px;
+    border-radius: 50%;
+}
+
+.user-greeting {
+    padding-left: 40px;
+}
+.user-img-big {
+    width: 80px;
     border-radius: 50%;
 }
