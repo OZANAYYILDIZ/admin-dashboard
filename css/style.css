@@ -91,7 +91,7 @@ input {
 .search-user {
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 40px
 }
 
 .user-name-small {
@@ -105,8 +105,51 @@ input {
 
 .user-greeting {
     padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .user-img-big {
     width: 80px;
     border-radius: 50%;
+}
+
+.header-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.greeting-text-container {
+    padding-left: 20px;
+}
+
+.greeting-text {
+    padding: 4px 0;
+    font-size: 18px;
+}
+
+.user-name-big {
+    padding: 4px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.action-buttons {
+    width: 40%;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    background-color: #1992d4;
+    border: solid 1px #1992d4;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
 }
